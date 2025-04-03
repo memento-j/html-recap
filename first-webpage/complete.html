@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="name" content="A fully structured HTML page">
+        <title>Page</title>
+    </head>
+    <body>
+        <header>
+            <h1>HTML Recap</h1>
+            <p>Learned <span style="color: burlywood;">none</span> of the topics below in school : D</p>
+        </header>
+        <section>
+            <h2>Topics covered</h2>
+            <ul>
+                <li>HTML Structure</li>
+                <li>Meta tags</li>
+                <li>headings, paragraphs, spans</li>
+                <li>Tables</li>
+                <li>Tables</li>
+                <li>Forms</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Student CS Classes</h2>
+            <table border="3">
+                <tr>
+                    <th>Names</th>
+                    <th>CS Classes</th>
+                    <th>Scammed?</th>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>CS112, CS 211</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Sue Doe</td>
+                    <td>CS 262, CS 310</td>
+                    <td>Yes</td>
+                </tr>                
+                <tr>
+                    <td>James Smith</td>
+                    <td>CS 471, CS 483</td>
+                    <td>Yes :D</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Signup From</h2>
+            <form>
+                <!-- id "name" in input tag to specify which label it is for
+                 required specifies that an input field must be filled out before submitting the form-->
+                <label for="name">Name:</label>
+                <input type="text" id="name" required />
+                <br />
+                <label for="email">Email:</label>
+                <input type="email" id="email" required />
+                <br />
+                <label for="date">Graduation Date:</label>
+                <input type="date" id="date" required />
+                <br />
+                <!-- select creates dropdown menu options, value used to determine which option was picked -->
+                <select id="country">
+                    <option value="">Please choose number of job applications sent so far</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                    <option value="250">250</option>
+                </select>
+                <br />
+                <button tpye="submit">Sign up</button>
+            </form>
+        </section>
+        <footer>
+            <p>Created by *JS* - 2025</p>
+        </footer>
+    </body>
+</html>
