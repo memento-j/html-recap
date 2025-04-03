@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms and user input</title>
+    </head>
+    <body>
+        <form>
+            <!-- id "name" in input tag to specify which label it is for
+             required specifies that an input field must be filled out before submitting the form-->
+            <label for="name">Name:</label>
+            <input type="text" id="name" required />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" required />
+            <br />
+            <label for="password">Password:</label>
+            <input type="password" id="password" required />
+            <br />
+            <!-- select creates dropdown menu options, value used to determine which option was picked -->
+            <select id="country">
+                <option value="">Please choose country</option>
+                <option value="USA">USA</option>
+                <option value="Korea">Korea</option>
+                <option value="UK">UK</option>
+            </select>
+            <button tpye="submit">Sign up</button>
+        </form>
+    </body>
+
+</html>
